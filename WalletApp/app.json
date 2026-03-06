@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SwiftPay",
+    "slug": "swiftpay-wallet",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "swiftpay",
+    "splash": {
+      "backgroundColor": "#007AFF"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#007AFF"
+      },
+      "package": "com.swiftpay.wallet"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "52ffd8e0-bff1-4fe9-86db-442519455433"
+      }
+    },
+    "owner": "sweath"
+  }
+}
